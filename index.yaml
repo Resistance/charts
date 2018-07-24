@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   sevtech-ages:
   - apiVersion: v1
-    created: 2018-07-24T22:43:51.7445383+03:00
-    digest: 936179a40d3a37a643284eca4f47a4aec20c0d88f11495cdc06fcff225e43825
+    created: 2018-07-24T22:50:03.3207228+03:00
+    digest: 2eed973e7a4a5bc7b8a51c266ed4a5a5dc14c124f89131cc5df2e7043294961f
     name: sevtech-ages
     urls:
     - https://resistance.github.io/charts/sevtech-ages-3.0.8.tgz
     version: 3.0.8
-generated: 2018-07-24T22:43:51.7445383+03:00
+generated: 2018-07-24T22:50:03.3197227+03:00
