@@ -1,0 +1,12 @@
+#!/usr/bin/env sh
+
+set -o nounset -o errexit
+
+for chart in "$1"/*/*/Chart.yaml; do
+  SRC="$(dirname "$chart")"
+  CHART_NAME="$(basename "$(dirname "$SRC")")"
+  cp -R "$SRC" "$CHART_NAME"
+  helm package "$CHART_NAME"
+  rm -rf "$CHART_NAME"
+done
+helm repo index .
