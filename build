@@ -9,4 +9,4 @@ for chart in "$1"/*/*/Chart.yaml; do
   helm package "$CHART_NAME"
   rm -rf "$CHART_NAME"
 done
-helm repo index .
+helm repo index --url https://resistance.github.io/charts/ .
